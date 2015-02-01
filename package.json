@@ -1,30 +1,30 @@
 {
   "name": "strip-utm",
-  "version": "1.0.0",
   "description": "Removes utm tracking codes from a URL query string.",
-  "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
-  "scripts": {
-    "lint": "eslint .",
-    "start": "node index",
-    "test": "node test/index"
-  },
-  "repository": "pdehaan/strip-utm.git",
+  "version": "1.0.0",
   "author": "Peter deHaan (http://nodeexamples.com/)",
-  "license": "WTFPL",
   "bugs": {
     "url": "https://github.com/pdehaan/strip-utm/issues"
+  },
+  "dependencies": {
+    "normalize-url": "1.0.2"
+  },
+  "devDependencies": {
+    "eslint": "0.13.0"
+  },
+  "directories": {
+    "test": "test"
   },
   "homepage": "https://github.com/pdehaan/strip-utm",
   "keywords": [
     "utm"
   ],
-  "devDependencies": {
-    "eslint": "0.13.0"
-  },
-  "dependencies": {
-    "normalize-url": "1.0.2"
+  "license": "WTFPL",
+  "main": "index.js",
+  "repository": "pdehaan/strip-utm.git",
+  "scripts": {
+    "lint": "eslint .",
+    "start": "node index",
+    "test": "node test/index"
   }
 }
